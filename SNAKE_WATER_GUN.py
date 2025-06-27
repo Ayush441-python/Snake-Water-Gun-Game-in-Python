@@ -4,7 +4,8 @@ youstr = input("Enter your choice(s,w,g): ")
 youDict = {"s": 1, "w": -1, "g": 0}
 reverseDict = {1: "Snake", -1: "Water", 0: "Gun"}
 you = youDict[youstr]
-if(computer==youstr):
+print(f"Your choise is {you} and computer choise is {computer}")
+if(computer==you):
     print("Draw")
 else:
     if(computer==-1 and you==1):
